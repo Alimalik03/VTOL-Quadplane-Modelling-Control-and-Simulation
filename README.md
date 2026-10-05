@@ -7,7 +7,7 @@ A MATLAB/Simulink model of a **VTOL quadplane**: a fixed-wing aircraft with four
 It combines a nonlinear 6-DOF rigid-body model, propulsion built from measured motor bench-test data, separate multirotor and fixed-wing controllers, and a **mode manager** that blends control authority smoothly between the two flight modes.
 
 <p align="center">
-  <img src="images/trajectory.png" alt="Simulated VTOL quadplane trajectory: multirotor climb, transition and fixed-wing cruise" width="800">
+  <img src="VTOL_trajectory.png" alt="Simulated VTOL quadplane trajectory: multirotor climb, transition and fixed-wing cruise" width="800">
 </p>
 
 ---
@@ -15,7 +15,7 @@ It combines a nonlinear 6-DOF rigid-body model, propulsion built from measured m
 ## Model overview
 
 <p align="center">
-  <img src="images/simulink_model.png" alt="Top-level Simulink model" width="100%">
+  <img src="VTOL_simulink_Model.png" alt="Top-level Simulink model" width="100%">
 </p>
 
 | Subsystem | Description |
@@ -62,7 +62,7 @@ Default mission set-up (top-level constants):
 ## Results
 
 <p align="center">
-  <img src="images/state_response.png" alt="Speed, pitch and height tracking" width="100%">
+  <img src="VTOL_states_tracking.png" alt="Speed, pitch and height tracking" width="100%">
 </p>
 
 The three panels show:
